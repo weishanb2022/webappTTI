@@ -1,0 +1,188 @@
+<div>
+  <div class="mapillary-setting-wrapper">
+    <div data-dojo-attach-point="authenticationNode" class="authentication">
+      <div data-dojo-attach-point="loggedInNode" class="logged-in" style="display:none">
+        <div data-dojo-attach-point="loggedInUserAvatarNode" class="user-avatar"></div>
+        <a href="#" target="_blank" data-dojo-attach-point="loggedInUsernameNode" class="user-name"></a>
+      </div>
+
+      <!-- <div data-dojo-attach-point="loggedOutNode" class="logged-out" style="display:none">
+        <button class="jimu-btn btn-primary mapillary-signin" data-dojo-attach-point="signInButton">${nls.signIn}</button>
+        <button class="jimu-btn btn-secondary mapillary-register" data-dojo-attach-point="registerButton"><a href="https://www.mapillary.com/signup" target="_blank">${nls.signUp}</a></button>
+      </div>
+    </div> -->
+
+    <!-- <div class="mapillary-update" data-dojo-attach-point="updateNode" style="display:none;">
+      <div><span data-dojo-attach-point="updateTextNode"></span></div>
+    </div> -->
+    
+    <p class="mapillary-setting-notify" data-dojo-attach-point="clientIdInstructionsNode" style="display:none">
+
+    </p>
+
+    <div class="mapillary-setting-field" data-dojo-attach-point="clientIdNode" style="display:none">
+      <label for="mapillary_setting_clientId"><h3>${nls.clientId}</h3> <span>${nls.clientIdInstruction} <a href="https://www.mapillary.com/dashboard/developers" target="_blank">mapillary.com/app/settings/developers</a>.</span>
+        <input data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="clientId" id="mapillary_setting_clientId" type="text" placeholder="MLY|...">
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field" data-dojo-attach-point="clientSecretNode" style="display:none">
+      <label for="mapillary_setting_clientSecret"><h3>${nls.clientSecret}</h3> <span>${nls.clientSecretInstruction} <a href="https://www.mapillary.com/dashboard/developers" target="_blank">mapillary.com/app/settings/developers</a>.</span>
+        <input data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="clientSecret" id="mapillary_setting_clientSecret" type="text" placeholder="MLY|...">
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field filter-organization" data-dojo-attach-point="defaultOrganizationNode" style="display:none">
+      <label><h3>${nls.defaultOrganization}</h3>
+        <input data-dojo-type="dijit/form/ComboBox" data-dojo-props="disabled: true" data-dojo-attach-point="defaultOrganization" id="mapillary_setting_defaultOrganization" type="text">
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field filter-user" data-dojo-attach-point="defaultUserNameNode" style="display:none">
+      <label><h3>${nls.defaultUserName}</h3> <span>${nls.defaultUserNameInstruction}</span>
+        <div class="dijit dijitReset dijitInline dijitLeft dijitTextBox" style="height: auto; cursor: text; width: 100%;" onClick="this.children[0].children[1].children[2].children[0].focus();">
+          <div class="dijitReset dijitInputField dijitInputContainer" data-dojo-attach-point="userSearchListNode">
+            <div name="userList" data-dojo-attach-point="userListNode"></div>
+            <input name="userSearch" data-dojo-attach-point="userSearch" data-dojo-type="dijit/form/ComboBox" data-dojo-props="placeholder: '${nls.username}', required:false" style="float:left;width: 33%;">
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field" data-dojo-attach-point="defaultOrganizationCoverageNode" style="display:none">
+      <div class="form-group row">
+        <div class="checkbox checkbox-coverage" data-dojo-attach-point="coverageCheckbox" style="display:none">
+          <div class="checkbox-switch">
+            <input id="coverage" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="coverage" type="checkbox" class="checkbox-switch-checkbox">
+            <label class="checkbox-switch-label" for="coverage">
+              <span class="checkbox-switch-inner" id="switch"></span>
+              <span class="checkbox-switch-switch"></span>
+            </label>
+          </div>
+          <div class="checkbox-switch-text-label">${nls.showCoverage}</div>
+        </div>
+      </div>
+
+      <div class="checkbox checkbox-organization" data-dojo-attach-point="organizationCheckboxNode" style="display:none">
+        <div class="checkbox-switch">
+          <input id="organization" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="organizationCheckbox" type="checkbox" class="checkbox-switch-checkbox">
+          <label class="checkbox-switch-label" for="organization">
+            <span class="checkbox-switch-inner" id="switch3"></span>
+            <span class="checkbox-switch-switch"></span>
+          </label>
+        </div>
+        <div class="checkbox-switch-text-label" data-dojo-attach-point="organizationCheckboxLabel"></div>
+      </div>
+
+      <div class="checkbox checkbox-private" data-dojo-attach-point="privateCheckboxNode" style="display:none">
+        <div class="checkbox-switch">
+          <input id="private" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="privateCheckbox" type="checkbox" class="checkbox-switch-checkbox">
+          <label class="checkbox-switch-label" for="private">
+            <span class="checkbox-switch-inner" id="switch3"></span>
+            <span class="checkbox-switch-switch"></span>
+          </label>
+        </div>
+        <div class="checkbox-switch-text-label" data-dojo-attach-point="privateCheckboxLabel"></div>
+        <span class="checkbox-switch-text-label-private">Private<img class="checkbox-switch-text-label-icon" data-dojo-attach-point="privateIconNode"></span>
+      </div>
+    </div>
+
+    <h3>${nls.advancedOptions}</h3>
+
+    <!-- <div class="mapillary-setting-field mapillary-setting-field-checkbox">
+      <label>
+        <input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="hideAuthentication" type="checkbox">
+        <h3>${nls.hideAuthentication}</h3> <span>${nls.hideAuthenticationInstruction}</span>
+      </label>
+    </div> -->
+
+    <!-- <div class="mapillary-setting-field mapillary-setting-field-checkbox">
+      <label>
+        <input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="hideUserFilter" type="checkbox">
+        <h3>${nls.hideUserFilter}</h3> <span>${nls.hideUserFilterInstruction}</span>
+      </label>
+    </div> -->
+
+    <div class="mapillary-setting-field mapillary-setting-field-checkbox">
+      <label>
+        <input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="useTransitions" type="checkbox">
+        <h3>${nls.useImageTransition}</h3> <span>${nls.useImageTransitionInstruction}</span>
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field mapillary-setting-field-checkbox">
+      <label>
+        <input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="mapillaryImage" type="checkbox">
+        <h3>${nls.imageDetails}</h3> <span>${nls.imageInstruction}</span>
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field mapillary-setting-field-checkbox">
+      <label>
+        <input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="mapillaryDirection" type="checkbox">
+        <h3>${nls.directionDetails}</h3> <span>${nls.directionInstruction}</span>
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field mapillary-setting-field-checkbox">
+      <label>
+        <input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="mapillarySequence" type="checkbox">
+        <h3>${nls.sequenceDetails}</h3> <span>${nls.sequenceInstruction}</span>
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field mapillary-setting-field-checkbox">
+      <label>
+        <input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="mapillaryBearing" type="checkbox">
+        <h3>${nls.bearingDetails}</h3> <span>${nls.bearingInstruction}</span>
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field mapillary-setting-field-checkbox">
+      <label>
+        <input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="clearCoverageClose" type="checkbox">
+        <h3>${nls.clearCoverageDetails}</h3> <span>${nls.clearCoverageInstruction}</span>
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field mapillary-setting-field-checkbox">
+      <label>
+        <input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="enableProxy" type="checkbox">
+        <h3>${nls.enableProxyDetails}</h3> <span>${nls.enableProxyInstruction} <a href="https://github.com/Esri/resource-proxy" target="_blank">https://github.com/Esri/resource-proxy</a>.</span>
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field" data-dojo-attach-point="proxyUrlNode">
+      <label for="mapillary_setting_proxyUrl"><h3>${nls.proxyUrlDetails}</h3> <span>${nls.proxyUrlInstruction}</span>
+        <input data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="proxyUrl" id="mapillary_setting_proxyUrl" type="text">
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field mapillary-setting-field-checkbox">
+      <label>
+        <input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="enableAnonymous" type="checkbox">
+        <h3>${nls.enableAnonymous}</h3> <span>${nls.enableAnonymousInstrictuon}.</span>
+      </label>
+    </div>
+
+    <div class="mapillary-setting-field" data-dojo-attach-point="organizationIdNode">
+      <label for="mapillary_setting_organizationId"><h3>${nls.organizationId}</h3> <span>${nls.organizationIdInstruction}</span>
+        <input data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="organizationId" id="mapillary_setting_organizationId" type="text">
+      </label>
+    </div>
+
+      <h3>${nls.layerColors}</h3>
+      <div class="mapillary-setting-field mapillary-setting-field-colorpicker">
+          Public
+          <div data-dojo-type="jimu/dijit/ColorPicker" data-dojo-attach-point="layerColorPublic"></div>
+      </div>
+      <!-- <div class="mapillary-setting-field mapillary-setting-field-colorpicker">
+          Organization
+          <div data-dojo-type="jimu/dijit/ColorPicker" data-dojo-attach-point="layerColorOrganization"></div>
+      </div>
+      <div class="mapillary-setting-field mapillary-setting-field-colorpicker">
+          Private
+          <div data-dojo-type="jimu/dijit/ColorPicker" data-dojo-attach-point="layerColorPrivate"></div>
+      </div> -->
+  </div>
+</div>

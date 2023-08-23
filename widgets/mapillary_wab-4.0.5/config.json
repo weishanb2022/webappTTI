@@ -1,0 +1,20 @@
+{
+  "useTransitions": true,
+  "hideUserFilter": false,
+  "hideAuthentication": false,
+  "defaultUserName": "",
+  "mapillaryImage": true,
+  "mapillaryDirection": true,
+  "mapillarySequence": true,
+  "mapillaryBearing": true,
+  "clearCoverageClose": true,
+  "clientId": "",
+  "clientSecret": "",
+  "callbackUrl": "",
+  "defaultOrganization": "",
+  "layerColorPublic": "#39AF64",
+  "layerColorOrganization": "#FFC01B",
+  "layerColorPrivate": "#6236FF",
+  "enableAnonymous": false,
+  "organizationId": ""
+}

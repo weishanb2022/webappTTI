@@ -1,0 +1,25 @@
+{
+  "name": "mapillary_wab-4.0.5",
+  "label": "Mapillary",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "4.0.5",
+  "wabVersion": "2.21",
+  "author": "https://github.com/mapillary/mapillary_wab/graphs/contributors",
+  "description": "Viewer using MapillaryJS to visualize Mapillary images",
+  "copyright": "Mapillary AB (c) 2017",
+  "license": "SEE LICENSE",
+  "properties": {
+    "inPanel": true,
+    "hasLocale": true,
+    "hasStyle": true,
+    "hasConfig": true,
+    "hasUIFile": true,
+    "hasSettingPage": true,
+    "hasSettingUIFile": true,
+    "hasSettingLocale": true,
+    "hasSettingStyle": true,
+    "IsController": false
+  }
+}

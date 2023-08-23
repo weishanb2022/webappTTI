@@ -1,0 +1,13 @@
+{
+  "analysisTools": [
+    {
+      "name": "CreateBuffers",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false
+    }
+  ]
+}

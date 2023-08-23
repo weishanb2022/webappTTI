@@ -1,0 +1,135 @@
+<div class="mini">
+    <div class="wrapper" data-dojo-attach-point="wrapperNode">
+        <div data-dojo-attach-point="authenticationNode" class="authentication" style="display:none">
+            <div data-dojo-attach-point="loggedInNode" class="logged-in" style="display:none">
+                <div data-dojo-attach-point="loggedInUserAvatarNode" class="user-avatar"></div>
+                <a href="#" target="_blank" data-dojo-attach-point="loggedInUsernameNode" class="user-name"></a>
+                <span class="esri-icon esri-icon-up"></span><span class="esri-icon esri-icon-down"></span>
+            </div>
+
+            <div data-dojo-attach-point="loggedOutNode" class="logged-out" style="display:''">
+                <button class="jimu-btn btn-primary mapillary-signin" data-dojo-attach-point="signInButton">${nls.signIn}</button>
+                <button class="jimu-btn btn-secondary mapillary-register" data-dojo-attach-point="registerButton"><a href="https://www.mapillary.com/signup" target="_blank">${nls.signUp}</a></button>
+            </div>
+        </div>
+
+        <div data-dojo-attach-point="loggedInMenu" class="user-menu" style="display:none"></div>
+
+        <div class="mapillary-update" data-dojo-attach-point="updateNode" style="display:none;">
+            <div><span data-dojo-attach-point="updateTextNode"></span></div>
+        </div>
+        <div class="mapillary-notice" data-dojo-attach-point="loginNoticeNode" style="display:''">
+            <div><span data-dojo-attach-point="loginTextNode"></span></div>
+        </div>
+        <div class="mly-wrapper mapillary" data-dojo-attach-point="mapillaryWrapperNode">
+            <div id="mly"></div>
+            <span class="mapillary-timestamp Attribution" data-dojo-attach-point="timestampNode"></span>
+            <div class="mapillary-notice" data-dojo-attach-point="noticeNode" style="display:'none'">
+                <div><span data-dojo-attach-point="noticeTextNode"></span></div>
+            </div>
+            <div class="mapillary-maximize" data-dojo-attach-point="maximizeNode"></div>
+        </div>
+
+        <!-- <a href="#" target="_blank" class="download-image" data-dojo-attach-point="downloadImage" style="display:none" download>${nls.downloadImage}</a> -->
+
+        <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="form" style="display:none">
+            <div class="form-group row" data-dojo-attach-point="mapillarySettings" style="display:none">
+                <div class="checkbox checkbox-coverage" data-dojo-attach-point="coverageCheckbox" style="display:none">
+                    <div class="checkbox-switch">
+                        <input id="coverage" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="coverage" type="checkbox" class="checkbox-switch-checkbox">
+                        <label class="checkbox-switch-label" for="coverage">
+                            <span class="checkbox-switch-inner" id="switch"></span>
+                            <span class="checkbox-switch-switch"></span>
+                        </label>
+                    </div>
+                    <div class="checkbox-switch-text-label">${nls.showCoverage}</div>
+                </div>
+            </div>
+
+            <div class="checkbox checkbox-organization" data-dojo-attach-point="organizationCheckboxNode" style="display:none">
+                <div class="checkbox-switch">
+                    <input id="organization" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="organizationCheckbox" type="checkbox" class="checkbox-switch-checkbox">
+                    <label class="checkbox-switch-label" for="organization">
+                        <span class="checkbox-switch-inner" id="switch3"></span>
+                        <span class="checkbox-switch-switch"></span>
+                    </label>
+                </div>
+                <div class="checkbox-switch-text-label" data-dojo-attach-point="organizationCheckboxLabel"></div>
+                <div class="checkbox-switch-text-label-icon checkbox-switch-text-label-icon-zoom" data-dojo-attach-point="organizationZoomIconNode"><div class="esri-icon esri-icon-search"></div></div>
+            </div>
+
+            <div class="checkbox checkbox-private" data-dojo-attach-point="privateCheckboxNode" style="display:none">
+                <div class="checkbox-switch">
+                    <input id="private" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="privateCheckbox" type="checkbox" class="checkbox-switch-checkbox">
+                    <label class="checkbox-switch-label" for="private">
+                        <span class="checkbox-switch-inner" id="switch3"></span>
+                        <span class="checkbox-switch-switch"></span>
+                    </label>
+                </div>
+                <div class="checkbox-switch-text-label" data-dojo-attach-point="privateCheckboxLabel"></div>
+                <span class="checkbox-switch-text-label-private">Private<img class="checkbox-switch-text-label-icon" data-dojo-attach-point="privateIconNode"></span>
+                <div class="checkbox-switch-text-label-icon checkbox-switch-text-label-icon-zoom" data-dojo-attach-point="privateZoomIconNode"><div class="esri-icon esri-icon-search"></div></div>
+            </div>
+
+            <div class="collapse-toggle" data-dojo-attach-point="collapseToggleNode">
+                <span>Filter Map View</span>
+                <div class="collapse-toggle-arrow esri-icon esri-icon-up"></div>
+            </div>
+            <div class="collapse-wrapper" data-dojo-attach-point="collapseWrapperNode">
+                <div class="form-group row filter-user" data-dojo-attach-point="userFilterNode" style="display:none">
+                    <h3>${nls.filterBy} ${nls.user}<!--<span class="info">${nls.userInstruction}</span>--></h3>
+                    <div class="dijit dijitReset dijitInline dijitLeft dijitTextBox" style="height: auto; cursor: text; width: 100%;" onClick="this.children[0].children[1].children[2].children[0].focus();">
+                        <div class="dijitReset dijitInputField dijitInputContainer" data-dojo-attach-point="userSearchListNode">
+                            <div name="userList" data-dojo-attach-point="userListNode"></div>
+                            <input name="userSearch" data-dojo-attach-point="userSearch" data-dojo-type="dijit/form/ComboBox" data-dojo-props="placeholder: '${nls.username}', required:false" style="float:left;width: 33%;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group row filter-organization" data-dojo-attach-point="organizationsFilterNode" style="display:none">
+                    <h3>${nls.filterBy} ${nls.organization}</h3>
+                    <input name="orgId" placeholder="Organization" data-dojo-attach-point="orgId" data-dojo-type="dijit/form/ComboBox" data-dojo-props="required:false" style="width:100%">
+                </div>
+
+                <div class="form-group row filter-date" data-dojo-attach-point="dateFilterNode" style="display:none">
+                    <h3 style="clear:both">${nls.filterBy} ${nls.date}</h3>
+                    <div class="dijit dijitReset dijitInline dijitLeft dijitTextBox" style="height:auto;width: 100%;">
+                        <div class="dijitReset dijitInputField dijitInputContainer">
+                            <input class="date-from" name="fromDate" data-dojo-attach-point="fromDate" placeholder="${nls.from}" data-dojo-type="dijit/form/DateTextBox" data-dojo-props="onFocus:function(){this.openDropDown();}">
+                            <div class="date-sep"><div class="esri-icon esri-icon-right-arrow"></div></div>
+                            <input class="date-to" name="toDate" data-dojo-attach-point="toDate" placeholder="${nls.to}" data-dojo-type="dijit/form/DateTextBox" data-dojo-props="onFocus:function(){this.openDropDown();}">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group row filter-trafficsigns" data-dojo-attach-point="trafficSignsFilterNode" style="display:none">
+                    <h3>${nls.trafficSigns}</h3>
+                    <label>
+                        <input name="trafficSigns" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="trafficSigns" type="checkbox">
+                        <span class="info" data-dojo-attach-point="trafficSignsLinksNode">${nls.trafficSignsInstruction}
+                        <a href="?lat=55.593896&lng=13.022865&z=15&trafficSigns=true">Malmö</a>, <a href="?lat=55.697507&lng=12.490749&z=15&trafficSigns=true">Copenhagen</a>, <a href="?lat=34.113977&lng=-118.406834&z=15&trafficSigns=true">Los Angeles</a></span>
+                    </label>
+                </div>
+
+                <a href="#" class="reset-button" data-dojo-attach-point="resetButtonNode" title="${nls.reset}">${nls.resetFilters}</a>
+
+                <h3 data-dojo-attach-point="viewOptionsHeaderNode">View Options</h3>
+                <div class="checkbox checkbox-transitions" data-dojo-attach-point="useTransitionsCheckbox" style="display:none">
+                    <div class="checkbox-switch">
+                        <input id="useTransitions" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="useTransitions" type="checkbox" class="checkbox-switch-checkbox">
+                        <label class="checkbox-switch-label" for="useTransitions">
+                            <span class="checkbox-switch-inner" id="switch2"></span>
+                            <span class="checkbox-switch-switch"></span>
+                        </label>
+                    </div>
+                    <div class="checkbox-switch-text-label">${nls.useTransitions}</div>
+                </div>
+            </div>
+
+            <div class="form-group form-group-buttons row" data-dojo-attach-point="submitFilterNode" style="display:none">
+                <button class="jimu-btn btn-cancel" type="reset">${nls.reset}</button>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>

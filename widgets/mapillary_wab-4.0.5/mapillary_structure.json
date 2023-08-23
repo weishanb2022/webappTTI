@@ -1,0 +1,28 @@
+{
+    "description": "Mapillary WAB Widget",
+    "repo": "mapillary_wab",
+    "frameworks": ["dojo"],
+    "language": "javascript",
+    "maintainers": [
+        "cbeddow"
+    ],
+    "providers": [
+        {
+            "dependencies": [
+                {
+                    "name": "api_v3"
+                }
+			],
+            "description": "Provider Mapillary WAB Widget",
+            "extDependencies": [],
+            "name": "mapillary_wab_provider",
+            "services": [
+                {
+                    "name": "mapillary_wab",
+                    "description": "Mapillary WAB Widget"
+                }
+            ],
+            "type": "app_web"
+        }
+    ]
+}

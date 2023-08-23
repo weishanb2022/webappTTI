@@ -1,0 +1,76 @@
+/* add additional custom styles */
+.jimu-widget-customwidget {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    transition: background-color 0.3s;
+}
+
+.jimu-widget-customwidget:hover {
+    background-color: #121212;
+}
+
+.jimu-widget-customwidget input[type="button"], .jimu-widget-customwidget select {
+    padding: 10px 15px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    background: linear-gradient(45deg, #007acc, #005da8);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    color: #fff;
+    outline: none;
+}
+
+.jimu-widget-customwidget input[type="button"]:hover, .jimu-widget-customwidget input[type="button"]:focus,
+.jimu-widget-customwidget select:hover, .jimu-widget-customwidget select:focus {
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
+    transform: scale(1.05);
+}
+
+.jimu-widget-customwidget select {
+    appearance: none;
+    background: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+#resultDiv, #layerDiv {
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+#resultDiv:hover, #layerDiv:hover {
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
+    transform: scale(1.05);
+}
+
+/* Cool Additions: CSS Keyframe Animation for Buttons */
+@keyframes glowing {
+  0% {
+    box-shadow: 0px 0px 5px #fff;
+  }
+  50% {
+    box-shadow: 0px 0px 20px #007acc, 0px 0px 30px #007acc;
+  }
+  100% {
+    box-shadow: 0px 0px 5px #fff;
+  }
+}
+
+.jimu-widget-customwidget input[type="button"]:hover {
+    animation: glowing 1.5s infinite alternate;
+}
+
+/*# sourceMappingURL=style.css.map */

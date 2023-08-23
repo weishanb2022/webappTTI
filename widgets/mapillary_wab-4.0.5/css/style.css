@@ -1,0 +1,939 @@
+@import url("//fonts.googleapis.com/css?family=Source+Sans Pro:200italic,200,300italic,300,400italic,400,600italic,600,700italic,700,900italic,900");
+@import url("../lib/mapillary-js/mapillary.min.css");
+
+.mapillary .jimu-loading-indicator .loading-container .img-div {
+    margin-top: -80px;
+}
+
+.jimu-widget-onscreen-icon[title="Mapillary"] {
+	border: 0;
+    background-color: transparent !important;
+	background: url(../images/icon-green.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.jimu-widget-onscreen-icon[title="Mapillary"] img {
+	display: none;
+}
+.mapillary-panel.jimu-on-screen-widget-panel>.jimu-panel-title {
+    /*background-color: transparent;*/
+}
+.mapillary-panel.jimu-pocket-panel .jimu-panel-title {
+    display: block !important;
+}
+.mapillary-panel.mapillary-panel-w .jimu-panel-title,
+.mapillary-panel.mapillary-panel-w .title {
+    background-image: url(../images/mapillary-logo_w.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size:  80px 20px;
+}
+.mapillary-panel.mapillary-panel-w .authentication .user-name {
+    color: #fff;
+}
+
+.mapillary.jimu-widget,
+.mapillary-panel.jimu-panel .jimu-panel-content,
+.mapillary-panel.jimu-panel .jimu-widget-frame.jimu-container {
+	background-color: #fff;
+	font-family: Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,sans-serif;
+}
+.mapillary-panel.minimized .authentication {
+    display: none;
+}
+.mapillary-panel.minimized.jimu-launchpad-panel .widget-icon {
+    display: block;
+}
+.mapillary-panel .dijitTextBox,
+.mapillary-panel .dijitTextBox.dijitTextBoxHover,
+.mapillary-panel .dijitTextBox.dijitTextBoxFocused,
+.mapillary-panel .dijitTextBox .dijitInputContainer,
+.mapillary-panel .dijitTextBox.dijitTextBoxHover .dijitInputContainer,
+.mapillary-panel .dijitTextBox.dijitTextBoxFocused .dijitInputContainer {
+    background-color: #fff;
+    border-color: #d9dde0;
+}
+
+.mapillary.jimu-widget,
+.mapillary-panel .dijitTextBox,
+.mapillary-panel .dijitTextBox .dijitInputInner {
+    border-radius: 5px;
+    color: #000;
+}
+.mapillary-panel .dojoxResizeHandle {
+	/*display: none;*/
+}
+.mapillary-panel .jimu-panel-title {
+	height: 40px !important;
+	/*background: #fff;*/
+	padding: 0 10px;
+}
+.mapillary-panel .jimu-panel-title .title-label {
+	text-indent: -1000em;
+	width: 100%;
+	height: 40px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.lm_item_container .lm_content>.mapillary-panel .jimu-widget-frame,
+.mapillary-panel.jimu-ldockable-panel .jimu-widget-frame,
+.mapillary-panel.box-panel .jimu-widget-frame,
+.mapillary-panel .jimu-panel-title,
+.mapillary-panel .title {
+    background-image: url(../images/mapillary-logo.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size:  80px 20px;
+}
+.mapillary-panel.minimized .jimu-panel-title,
+.mapillary-panel.minimized.jimu-launchpad-panel .title {
+    background: transparent;
+}
+.mapillary-panel.dart-panel .title {
+    background: transparent;
+}
+.mapillary-panel .title {
+    height: 40px;
+}
+.mapillary-panel .tab-widget-frame .title-label,
+.mapillary-panel .tab-widget-frame .title-angle {
+    display: none;
+}
+.mapillary-panel.jimu-on-screen-widget-panel .jimu-panel-title .title-label {
+    width: 100px;
+}
+.mapillary-panel .jimu-panel-title.title .close-icon,
+.mapillary-panel .jimu-panel-title.title .max-icon,
+.mapillary-panel .jimu-panel-title.title .min-icon {
+    position: relative;
+    z-index: 2;
+    height: 40px;
+    line-height: 40px;
+    right: -10px;
+    color: #000;
+}
+.mapillary-panel.mapillary-panel-w .jimu-panel-title.title .close-icon,
+.mapillary-panel.mapillary-panel-w .jimu-panel-title.title .max-icon,
+.mapillary-panel.mapillary-panel-w .jimu-panel-title.title .min-icon {
+    color: #fff;
+}
+.mapillary-panel .jimu-panel-title.title .close-btn {
+	width: 20px;
+	background: url(../../../jimu.js/css/images/black_close_default.png) no-repeat center center;
+}
+.mapillary-panel .jimu-panel-title.title .foldable-btn {
+	width: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	font-family: 'CalciteWebCoreIcons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.mapillary-panel.jimu-on-screen-widget-panel>.jimu-panel-title>.fold-down {
+	background: transparent;
+	transform: rotateZ(270deg);
+}
+.mapillary-panel.jimu-on-screen-widget-panel>.jimu-panel-title>.fold-down:before {
+	font-family: "CalciteWebCoreIcons";
+	content: "\e631";
+	color: #000;
+}
+.mapillary-panel.jimu-on-screen-widget-panel>.jimu-panel-title>.fold-up {
+	background: transparent;
+	transform: rotateZ(90deg);
+}
+.mapillary-panel.jimu-on-screen-widget-panel>.jimu-panel-title>.fold-up:before {
+	font-family: "CalciteWebCoreIcons";
+	content: "\e631";
+	color: #000;
+}
+.mapillary-panel .authentication {
+	float: right;
+}
+
+.lm_item_container .lm_content>.mapillary-panel .authentication,
+.mapillary-panel.jimu-ldockable-panel .authentication,
+.mapillary-panel.box-panel .authentication {
+    position: absolute;
+    z-index: 5;
+    top: -30px;
+    right: 10px;
+}
+.mapillary-panel.jimu-ldockable-panel .authentication {
+    top: -33px;
+}
+.mapillary-panel.jimu-tab-panel .authentication {
+    right: 10px;
+    top: 7px;
+}
+.lm_item_container .lm_content>.mapillary-panel .jimu-widget-frame,
+.mapillary-panel.jimu-ldockable-panel .jimu-widget-frame,
+.mapillary-panel.box-panel .jimu-widget-frame {
+    padding: 40px 0 0 0;
+}
+.mapillary-panel .mapillary-register {
+	font-weight: 400;
+	display: inline-block;
+	line-height: 1.125rem;
+	margin: 0;
+	height: auto;
+	vertical-align: middle;
+	background-color: #05CB63;
+	border-radius: 5px;
+	color: #fff;
+	transition: all .2s ease-in-out;
+	padding: 0;
+}
+
+.mapillary .collapse-toggle {
+	transition: all .25s ease;
+	overflow: hidden;
+	height: 40px;
+	width: 100%;
+	padding: 10px;
+	background: #F8F8F8;
+	color: #768490;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	z-index: 202;
+	bottom: 0;
+}
+.mapillary .collapse-toggle h2 {
+	margin: 0;
+	line-height: 24px;
+	font-size: 16px;
+}
+.mapillary .collapse-toggle .collapse-toggle-arrow {
+	height: 24px;
+	width: 24px;
+	line-height: 22px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.mapillary-panel.mapillary-collapse-open .collapse-toggle-arrow:before {
+	content: "\e681";
+}
+
+.mapillary .reset-button {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	margin: 20px 0 0 0;
+	display: inline-block;
+}
+.mapillary .reset-icon {
+	float: right;
+	text-decoration: none;
+	color: #00A2ED;
+	display: block;
+	height: 16px;
+	width: 16px;
+	overflow: hidden;
+	text-indent: -1000em;
+	background: url(../images/icon-refresh.svg) no-repeat;
+	background-size: 16px 16px;
+}
+.mapillary .download-image {
+	float: right;
+	text-decoration: none;
+	color: #00A2ED;
+	line-height: 24px;
+	padding: 0 5px;
+}
+.mapillary .mapillary-timestamp {
+	width: auto;
+	padding: 4px 8px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: auto;
+}
+.mapillary .hide-viewer-content #mly, .mapillary .hide-viewer-content .Attribution {
+	opacity: 0;
+	pointer-events: none;
+}
+.mapillary .hide-viewer-content .mapillary-notice {
+	display: block;
+}
+.mapillary .mly-wrapper,
+.mapillary .wrapper .mapillary.mly-wrapper {
+	position: relative;
+	overflow: hidden;
+}
+.mapillary.mly-wrapper {
+    z-index: 200 !important;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.mapillary .mapillary-js {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.mapillary .mapillary-js canvas {
+
+}
+.mapillary .mapillary-js .mapillary-js-interactive,
+.mapillary .mapillary-js .mapillary-js-dom {
+	width: 100%;
+	height: 100%;
+}
+
+.mapillary-panel .mapillary-signin,
+.mapillary-panel .mapillary-register {
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+    border: 0;
+    border-radius: 5px;
+    min-height: auto;
+}
+.mapillary-panel .mapillary-signin {
+	background-color: #fff;
+	color: #000;
+	min-width: 0;
+	padding: 0 10px;
+}
+.mapillary-panel .mapillary-register a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 0 10px;
+}
+.mapillary-panel .authentication {
+    z-index: 202;
+	position: relative;
+	top: 7px;
+}
+.jimu-ismobile .mapillary-panel .jimu-panel-title .authentication .logged-in {
+	left: -10px;
+}
+.mapillary-panel .authentication .logged-in {
+    position: relative;
+    top: 0;
+}
+.mapillary-panel .authentication .logged-out {
+	position: relative;
+	top: 0;
+	right: -3px;
+}
+.mapillary-panel.dart-panel .panel-content {
+    padding: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.mapillary-panel.dart-panel .panel-content .jimu-widget-frame {
+    padding: 0;
+}
+.mapillary-panel.dart-panel .title .authentication .logged-in,
+.mapillary-panel.dart-panel .title .authentication .logged-out {
+    top: 10px;
+}
+.mapillary-panel.dart-panel .title .authentication .logged-out .mapillary-signin {
+    color: #fff;
+}
+.mapillary-panel.dart-panel .mapillary.jimu-widget,
+.mapillary-panel.dart-panel .jimu-widget-frame.jimu-container,
+.mapillary-panel.dart-panel .mapillary .collapse-toggle,
+.mapillary-panel.dart-panel .mapillary .collapse-wrapper {
+    background: #4c4c4c;
+}
+
+.mapillary-panel.dart-panel .dijitTextBox,
+.mapillary-panel.dart-panel .dijitTextBox.dijitTextBoxHover,
+.mapillary-panel.dart-panel .dijitTextBox.dijitTextBoxFocused,
+.mapillary-panel.dart-panel .dijitTextBox.dijitTextBoxHover .dijitInputContainer,
+.mapillary-panel.dart-panel .dijitTextBox.dijitTextBoxFocused .dijitInputContainer {
+    background: transparent;
+    border: 0;
+}
+
+.mapillary-panel.dart-panel .dijitTextBox .dijitInputContainer {
+    background-color: rgba(0,0,0,0.5);
+    padding: 0;
+    border-radius: 0;
+}
+
+.mapillary-panel .logged-in .esri-icon-up {
+	position: absolute;
+	top: 5px;
+	right: 1px;
+}
+.mapillary-panel .logged-in .esri-icon-down {
+	position: relative;
+	top: 5px;
+    right: 0;
+}
+.mapillary-panel .logged-in {
+	display: block;
+	color: #05CB63;
+	font-size: 12px;
+	line-height: 26px;
+	cursor: pointer;
+}
+.mapillary-panel .logged-in a {
+	text-decoration: none;
+	color: #000;
+}
+.mapillary-panel .logged-in .user-avatar {
+	border-radius: 50%;
+	overflow: hidden;
+	height: 24px;
+	width: 24px;
+	float: left;
+	margin: 0.5px 5px 0 0;
+}
+.mapillary-panel .logged-in .user-avatar img {
+	height: 100%;
+	width: 100%;
+}
+
+.mapillary-panel .user-menu {
+	position: absolute;
+	z-index: 202;
+	width: 210px;
+	min-height: 50px;
+	max-height: calc(100% - 60px);
+	overflow: auto;
+	top: 10px;
+	right: 10px;
+	background: #F8F8F8;
+	border: 1px solid #DEE5ED;
+	border-radius: 5px;
+}
+.mapillary-panel .user-menu .user-menu-item:first-child {
+	border-top: 0;
+}
+.mapillary-panel .user-menu .user-menu-item {
+	padding: 20px;
+	border-top: 1px solid #DEE5ED;
+	cursor: pointer;
+	overflow: hidden;
+}
+.mapillary-panel .user-menu .user-menu-item.logout {
+}
+.mapillary-panel .user-menu .user-menu-item.logout .user-menu-item-label {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+}
+.mapillary-panel .user-menu .user-menu-item .esri-icon {
+	font-size: 16px;
+	line-height: 16px;
+	margin-right: 18px;
+	margin-left: 5px;
+}
+.mapillary-panel .user-menu .user-menu-item .user-menu-item-label {
+	font-weight: bold;
+}
+.mapillary-panel .user-menu .user-menu-item .user-menu-item-label-sub {
+	margin-top: 8px;
+	color: #768390;
+}
+.mapillary-panel .user-menu .user-menu-item .user-menu-item-avatar {
+	border-radius: 50%;
+	overflow: hidden;
+	height: 30px;
+	width: 30px;
+	float: left;
+	margin: 5px 10px 0 0;
+}
+.mapillary-panel .user-menu .user-menu-item .user-menu-item-avatar img {
+	height: 100%;
+	width: 100%;
+}
+.mapillary-panel .user-menu .user-menu-item.logout {
+	height: auto;
+}
+.mapillary-panel.jimu-launchpad-panel .widget-icon {
+    display: none;
+}
+.mapillary-panel.jimu-foldable-panel {
+    min-height: 40px;
+}
+.mapillary-panel.jimu-foldable-panel .jimu-panel-title .title-label {
+    width: auto !important;
+}
+.mapillary-panel>.jimu-panel-content,
+.mapillary-panel.jimu-launchpad-panel>.jimu-panel-content,
+.mapillary-panel.jimu-foldable-panel>.jimu-panel-content,
+.mapillary-panel.jimu-on-screen-widget-panel>.jimu-panel-content {
+	top: 40px !important;
+}
+.mapillary-panel.jimu-foldable-panel .authentication {
+    margin-right: 0;
+}
+.mapillary-panel.jimu-foldable-panel .btns-container {
+    display: block;
+    float: right;
+}
+.mapillary-panel.jimu-pocket-panel>.jimu-container {
+    height: calc(100% - 40px) !important;
+}
+#jimu-layout-manager.TabTheme .jimu-widget-sidebar-controller .max-pane .mapillary .mapillary-maximize,
+#jimu-layout-manager.DashboardTheme .mapillary .mapillary-maximize {
+    display: none !important;
+}
+.mapillary-panel.jimu-tab-panel .jimu-widget-frame .jimu-container {
+    height: 100% !important;
+}
+.mapillary-panel.jimu-tab-panel .collapse-toggle {
+    bottom: 40px;
+}
+.mapillary-panel.jimu-tab-panel.jimu-main-background,
+.mapillary-panel.jimu-tab-panel .jimu-widget-frame .jimu-container,
+.mapillary-panel .jimu-panel-content .jimu-widget-frame.jimu-container {
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.mapillary-setting,
+.mapillary {
+    font-family: Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,sans-serif;
+	height: 100%;
+}
+.mapillary-setting h3,
+.mapillary h3 {
+	clear: both;
+    font-size: 1.1em;
+	line-height: 2.2em;
+	margin-top: .95em;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #ABB1B9;
+}
+.mapillary-setting h3 span,
+.mapillary h3 span {
+    font-size: 1em;
+    padding-left: .5em;
+    font-weight: normal;
+}
+.mapillary-setting form,
+.mapillary form {
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.mapillary-setting .form-group,
+.mapillary .form-group {
+	overflow: hidden;
+	clear: both;
+}
+.mapillary-setting .form-group:first-child h3,
+.mapillary .form-group:first-child h3 {
+	margin-top: 0;
+}
+.mapillary-setting .form-group-buttons,
+.mapillary .form-group-buttons {
+    margin-top: 1em;
+}
+.mapillary-setting .form-group-buttons button[type="reset"],
+.mapillary .form-group-buttons button[type="reset"] {
+    background-color: #00BCFF;
+    color: #F8F8F8;
+}
+.mapillary-setting .filter-date .esri-icon,
+.mapillary .filter-date .esri-icon {
+	color: #ABB1B9;
+	line-height: 28px;
+	margin-top: 0;
+	font-size: 10px;
+}
+.mapillary-setting .filter-date .date-to.dijitDateTextBox .dijitInputInner,
+.mapillary-setting .filter-date .date-to.dijitDateTextBox .dijitPlaceHolder,
+.mapillary .filter-date .date-to.dijitDateTextBox .dijitInputInner,
+.mapillary .filter-date .date-to.dijitDateTextBox .dijitPlaceHolder {
+	width: 100%;
+	text-align: right;
+}
+.mapillary-setting .filter-date .date-to,
+.mapillary-setting .filter-date .date-from,
+.mapillary .filter-date .date-to,
+.mapillary .filter-date .date-from {
+	width: 48%;
+	float: left;
+}
+.mapillary-setting .filter-date .date-sep,
+.mapillary .filter-date .date-sep {
+	text-align: center;
+	width: 4%;
+	float: left;
+}
+.mapillary-setting .filter-user .tag-cloud,
+.mapillary .filter-user .tag-cloud {
+	float: left;
+}
+.mapillary-setting .filter-user .tag-cloud .tag-list,
+.mapillary .filter-user .tag-cloud .tag-list {
+	height: auto;
+}
+.mapillary-setting .filter-user .tag-cloud .tag-list > div,
+.mapillary .filter-user .tag-cloud .tag-list > div {
+	margin-bottom: 0;
+	margin-top: 5px;
+	height: 19px;
+	line-height: 19px;
+	padding-top: 0;
+	color: #4c4c4c;
+	background: #ECEFF2;
+}
+.mapillary-setting .filter-user .tag-cloud .tag-list .icon img,
+.mapillary .filter-user .tag-cloud .tag-list .icon img {
+	height: 15px;
+	width: 15px;
+	margin-left: 2px;
+}
+.mapillary-setting .dijitTextBox .dijitInputField,
+.mapillary .dijitTextBox .dijitInputField {
+	padding: 0 10px;
+    border-radius: 5px;
+}
+.mapillary-setting .dijitTextBox .dijit,
+.mapillary .dijitTextBox .dijit {
+	border: 0;
+	height: auto;
+}
+.mapillary-setting .dijitTextBox .dijit.dijitTextBoxHover,
+.mapillary .dijitTextBox .dijit.dijitTextBoxHover {
+	background: transparent;
+}
+.mapillary-setting .dijitTextBox .dijit.dijitTextBoxFocused,
+.mapillary .dijitTextBox .dijit.dijitTextBoxFocused {
+	box-shadow: none;
+}
+.mapillary-setting .dijitTextBox .dijit .dijitInputContainer,
+.mapillary .dijitTextBox .dijit .dijitInputContainer {
+	line-height: 26px;
+	padding: 0;
+}
+.mapillary-setting .dijitTextBox .dijit .dijitInputInner,
+.mapillary .dijitTextBox .dijit .dijitInputInner {
+	height: 28px;
+}
+.mapillary-setting .dijitTextBox .dijit .dijitInputInner::placeholder,
+.mapillary .dijitTextBox .dijit .dijitInputInner::placeholder {
+	color: #ABB1B9;
+}
+.mapillary-setting .dijitTextBox .dijit .dijitInputField,
+.mapillary .dijitTextBox .dijit .dijitInputField {
+	line-height: 26px;
+	padding: 0;
+}
+.mapillary-setting .dijitTextBox .dijit .dijitDownArrowButton,
+.mapillary .dijitTextBox .dijit .dijitDownArrowButton {
+	background: transparent;
+	border: 0;
+	height: 26px;
+	display: none;
+}
+
+.mapillary-setting .mapillary-notice,
+.mapillary .mapillary-notice {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #F8F8F8;
+    background-color: #212B36;
+    text-align: center;
+}
+.mapillary-setting .mapillary-notice a,
+.mapillary .mapillary-notice a {
+	color: #fff;
+}
+.mapillary-setting .mapillary-js .mapillary-notice.error,
+.mapillary .mapillary-js .mapillary-notice.error {
+    background: #F8F8F8;
+    color: #E05643;
+    border: 1px solid #E05643;
+    border-radius: 5px;
+}
+.mapillary-setting .mapillary-notice > div,
+.mapillary .mapillary-notice > div {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.mapillary-setting .mapillary-notice > div > span,
+.mapillary .mapillary-notice > div > span {
+    display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+}
+.mapillary-setting .mapillary-update,
+.mapillary .mapillary-update {
+	width: 100%;
+	padding: 4px 0;
+	text-indent: 4px;
+	line-height: 1em;
+	font-weight: bold;
+}
+.mapillary-setting .form-group .checkbox,
+.mapillary .form-group .checkbox {
+	width: 70%;
+	float: left;
+}
+.mapillary-setting .checkbox,
+.mapillary .checkbox {
+	overflow: hidden;
+}
+.mapillary-setting .checkbox-coverage,
+.mapillary-setting .checkbox-private,
+.mapillary-setting .checkbox-organization,
+.mapillary .checkbox-coverage,
+.mapillary .checkbox-private,
+.mapillary .checkbox-organization {
+	margin: 10px 0 0 10px;
+}
+.mapillary-setting .checkbox-transitions,
+.mapillary .checkbox-transitions {
+	margin: 0 0 10px 0;
+}
+.mapillary-setting .form-group .checkbox:last-child,
+.mapillary .form-group .checkbox:last-child {
+	/*margin-bottom: 0;*/
+}
+.mapillary-setting .checkbox-switch,
+.mapillary .checkbox-switch {
+	position: relative;
+	width: 35px;
+	float: left;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.mapillary-setting .checkbox-switch-checkbox,
+.mapillary .checkbox-switch-checkbox {
+	display: none;
+}
+.mapillary-setting .checkbox-switch-label,
+.mapillary .checkbox-switch-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	border: 0 solid #999999;
+	border-radius: 10px;
+}
+.mapillary-setting .checkbox-switch-text-label,
+.mapillary .checkbox-switch-text-label {
+	float: left;
+	padding-left: 8px;
+	line-height: 20px;
+}
+.mapillary-setting .checkbox-switch-inner,
+.mapillary .checkbox-switch-inner {
+	display: block;
+	width: 200%;
+	margin-left: -100%;
+	transition: margin 0.15s ease 0s;
+}
+.mapillary-setting .checkbox-switch-inner:before, .mapillary-setting .checkbox-switch-inner:after,
+.mapillary .checkbox-switch-inner:before, .mapillary .checkbox-switch-inner:after {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 20px;
+	padding: 0;
+	line-height: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: Trebuchet, Arial, sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.mapillary-setting .checkbox-switch-inner:before,
+.mapillary .checkbox-switch-inner:before {
+	content: "";
+	padding-left: 10px;
+	background-color: #05CB63;
+	color: #F8F8F8;
+}
+.mapillary-setting .checkbox-switch-inner:after,
+.mapillary .checkbox-switch-inner:after {
+	content: "";
+	padding-right: 10px;
+	background-color: #212B36;
+	color: #212B36;
+	text-align: right;
+}
+.mapillary-setting .checkbox-switch-switch,
+.mapillary .checkbox-switch-switch {
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin: 0;
+	background: #F8F8F8;
+	position: absolute;
+	top: 3px;
+	bottom: 0;
+	right: 19px;
+	border: 0;
+	border-radius: 50px;
+	transition: all 0.15s ease 0s;
+}
+.checkbox-switch-checkbox.dijitCheckBoxChecked + .checkbox-switch-label .checkbox-switch-inner {
+	margin-left: 0;
+}
+.checkbox-switch-checkbox.dijitCheckBoxChecked + .checkbox-switch-label .checkbox-switch-switch {
+	right: 2px;
+	background-color: #FFFFFF;
+}
+.mapillary-setting .checkbox-switch-text-label-private,
+.mapillary .checkbox-switch-text-label-private {
+	display: inline-block;
+	color: #637381;
+	border: 1px solid #637381;
+	border-radius: 5px;
+	padding: 0 3px;
+	margin: 2px 0 0 8px;
+	line-height: 14px;
+	font-size: 12px;
+	height: 16px;
+	text-transform: uppercase;
+}
+.mapillary-setting .checkbox .checkbox-switch-text-label-private .checkbox-switch-text-label-icon,
+.mapillary .checkbox .checkbox-switch-text-label-private .checkbox-switch-text-label-icon,
+.mapillary .checkbox-switch-text-label-icon-zoom {
+	vertical-align: middle;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	position: relative;
+	top: -1px;
+	margin-left: 1px;
+}
+.mapillary .checkbox-switch-text-label-icon-zoom {
+    height: 10px;
+    width: 10px;
+    margin-top: 0;
+    margin-left: 0.5em;
+    border: 0;
+    cursor: pointer;
+    color: #637381;
+}
+.mapillary-setting .checkbox-private .checkbox-switch-inner:before,
+.mapillary .checkbox-private .checkbox-switch-inner:before {
+    background-color: #6236FF;
+}
+.mapillary-setting .checkbox-organization .checkbox-switch-inner:before,
+.mapillary .checkbox-organization .checkbox-switch-inner:before {
+    background-color: #FFC01B;
+}
+
+.mapillary .collapse-wrapper {
+	transition: all .25s ease;
+	height: 0;
+	width: 100%;
+	padding: 0 10px;
+	overflow: auto;
+	position: absolute;
+	z-index: 202;
+	bottom: 0;
+	left: 0;
+	background: #F8F8F8;
+}
+
+.mapillary-maximize {
+    height: 64px;
+    width: 64px;
+    z-index: 202;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: 100%;
+    background-image: url('../images/icon-maximize.svg');
+    cursor: pointer;
+}
+
+#map.mini {
+    z-index: 201 !important;
+    width: 320px !important;
+    height: 240px !important;
+    position: absolute !important;
+    top: auto !important;
+    bottom: 10px !important;
+    left: 10px !important;
+    right: auto !important;
+    box-shadow: 0 1px 0.5px rgba(0,0,0,0.3), 0 2px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 0.5px rgba(0,0,0,0.3), 0 2px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 0.5px rgba(0,0,0,0.3), 0 2px 2px rgba(0,0,0,0.2);
+}
+#map.mini .jimu-anchorbar-controller,
+#map.mini .jimu-widget-onscreen-icon,
+#map.mini .jimu-on-screen-widget-panel,
+#map.mini .jimu-launchpad-panel,
+#map.mini .esriPopup,
+#map.mini .box-controller,
+#map.mini .dart-controller,
+#map.mini .dart-panel,
+#map.mini > div.jimu-panel,
+#map.mini > div[class*="jimu-widget-"] {
+    display: none;
+}
+#map.mini .esriControlsBR {
+    bottom: 5px !important;
+    left: 5px !important;
+}
+#map.mini .jimu-widget-search,
+#map.mini .jimu-widget-mylocation,
+#map.mini .jimu-widget-homebutton,
+#map.mini .jimu-widget-zoomslider {
+    margin-top: -15px;
+}
+
+.mapillary.jimu-widget.fullscreen {
+    display: none !important;
+}
+
+.mapillary-viewer.fullscreen {
+    z-index: 200 !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+.mapillary-viewer.fullscreen .SequenceContainer {
+    top: 160px;
+}
+.mapillary-viewer.fullscreen .mapillary-viewer-icon {
+    height: 40px;
+    width: 40px;
+    z-index: 202 !important;
+    bottom: 10px;
+    left: 10px;
+    right: auto;
+    top: auto;
+}
+.mapillary-viewer.mini {
+    box-shadow: 0 1px 0.5px rgba(0,0,0,0.3), 0 2px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 0.5px rgba(0,0,0,0.3), 0 2px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 0.5px rgba(0,0,0,0.3), 0 2px 2px rgba(0,0,0,0.2);
+}
+/*.mapillary-viewer.mini,
+.mapillary-viewer .mapillary-js {
+    width: 320px;
+    height: 240px;
+}*/
+.mapillary-viewer .mapillary-js .Attribution {
+    height: 20px;
+    line-height: 12px;
+    text-align: right;
+}
+.mapillary-viewer.mini,
+.mapillary-viewer .mapillary-js {
+    z-index: 100 !important;
+    /*border-radius: 4px !important;*/
+}

@@ -1,0 +1,105 @@
+@import url("../../css/style.css");
+.mapillary-setting {
+  font-family: 'Source Sans Pro',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Avenir Light',Helvetica Neue,Helvetica,Verdana,Geneva,sans-serif;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.mapillary-setting h3 {
+  line-height: 1em;
+  text-transform: none;
+  color: #212B36;
+  font-weight: 600;
+  margin: 0;
+}
+.mapillary-setting .dijitTextBox {
+  width: 100%;
+}
+.mapillary-setting .dijitCheckBox {
+  float: left;
+  margin-right: 5px;
+}
+.mapillary-setting .mapillary-setting-notify {
+  background-color: orange;
+  color: black;
+  padding: 1em;
+  font-size: 0.7em;
+  margin: 1em 0;
+}
+.mapillary-setting .authentication {
+  margin-bottom: 1em;
+}
+.mapillary-setting .mapillary-signin,
+.mapillary-setting .mapillary-register {
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 1.125rem;
+  margin: 0;
+  height: auto;
+  vertical-align: middle;
+  background: #05CB63;
+  min-width: 100px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  color: #F8F8F8;
+  padding: .5rem 2rem;
+  transition: all .2s ease-in-out;
+}
+.mapillary-setting .mapillary-register {
+  background-color: #fff;
+  border-color: #05CB63;
+}
+.mapillary-setting .mapillary-register a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.mapillary-setting .mapillary-update {
+  width: 100%;
+  padding: 4px 0;
+  text-indent: 4px;
+  line-height: 1em;
+  font-weight: bold;
+}
+
+.mapillary-setting .mapillary-setting-field {
+  margin-bottom: 1em;
+}
+.mapillary-setting .mapillary-setting-field label span {
+  color: #637381;
+  display: block;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1em;
+}
+.mapillary-setting .mapillary-setting-field-checkbox label {
+  display: inline-block;
+}
+
+.mapillary-setting .mapillary-setting-field-colorpicker {
+    width: 16.66666666666%;
+    float: left;
+}
+.mapillary-setting .mapillary-setting-field.mapillary-setting-field-checkbox {
+
+}
+.mapillary-setting  .mapillary-setting-field.mapillary-setting-field-checkbox label {
+
+}
+.mapillary-setting  .mapillary-setting-field.mapillary-setting-field-checkbox label span {
+  margin-left: 21px;
+  float: left;
+  clear: both;
+}
+.mapillary-setting  .mapillary-setting-field.mapillary-setting-field-checkbox h3 {
+  font-size: 15px;
+  line-height: 16px;
+  margin: 0;
+  text-transform: none;
+  display: inline-block;
+  float: left;
+  clear: none;
+}
+.mapillary-setting .filter-user .tag-cloud .tag-list > div {
+  line-height: 22px;
+}

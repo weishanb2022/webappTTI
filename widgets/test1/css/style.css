@@ -1,0 +1,90 @@
+/* add additional custom styles */
+
+.fusion-widget {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.fusion-widget:hover {
+    background-color: #121212;
+}
+
+.action-group {
+    display: flex;
+    flex-direction: column; /* Switched from row to column */
+    align-items: start;
+    gap: 15px;
+}
+
+.color-label {
+    color: #ffffff;
+    margin-top: 10px; /* Spacing between the label and button above */
+    margin-bottom: 5px; /* Spacing between the label and color picker */
+}
+
+.action-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    background: linear-gradient(45deg, #007acc, #005da8);
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.action-button:hover, .action-button:focus {
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
+    transform: scale(1.05);
+}
+
+#layerSelectContainer {
+    width: 100%;
+}
+
+#layerSelect {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+#fusionResult {
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    width: 200px; /* You can adjust this width if needed */
+color:#000;
+}
+
+#fusionResult:hover {
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
+    transform: scale(1.05);
+}
+
+#colorPicker {
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#colorPicker:hover {
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
+    transform: scale(1.05);
+}

@@ -1,0 +1,2795 @@
+{
+  "mainPanelIcon": "",
+  "layerInfos": [
+    {
+      "layer": "1890be56ea8-layer-2",
+      "label": "Ground truth",
+      "refresh": false,
+      "url": "https://services1.arcgis.com/qr14biwnHA6Vis6l/arcgis/rest/services/Ground_truth/FeatureServer/0",
+      "id": "1890be56ea8-layer-2",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "color": [
+            81,
+            0,
+            255,
+            217
+          ],
+          "size": 11.25,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSTriangle",
+          "outline": {
+            "color": [
+              255,
+              255,
+              255,
+              128
+            ],
+            "width": 1,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "color": [
+            81,
+            0,
+            255,
+            217
+          ],
+          "size": 11.25,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSTriangle",
+          "outline": {
+            "color": [
+              255,
+              255,
+              255,
+              128
+            ],
+            "width": 1,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null
+          },
+          "symbol": {
+            "style": "triangle",
+            "color": {
+              "r": 81,
+              "g": 0,
+              "a": 0.8509803921568627
+            },
+            "size": 15,
+            "outline": {
+              "width": 1.3333333333333333,
+              "color": {
+                "a": 0.5019607843137255
+              },
+              "style": "solid",
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(81, 0, 255)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -7.5,7.5 L 0,-7.5 L 7.5,7.5 L -7.5,7.5 Z\" d=\"M-7.5 7.5L 0-7.5L 7.5 7.5L-7.5 7.5Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></path></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(81, 0, 255)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -7.5,7.5 L 0,-7.5 L 7.5,7.5 L -7.5,7.5 Z\" d=\"M-7.5 7.5L 0-7.5L 7.5 7.5L-7.5 7.5Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "1890be56ea8-layer-2",
+        "featureDisplayOptions": {
+          "groupEnabled": true,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "MERGE_SRC"
+            },
+            {
+              "name": "type",
+              "label": ""
+            }
+          ],
+          "groupField": {
+            "name": "spd_lt",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          },
+          "layerOptionsSortOrder": "ASC",
+          "groupFeaturesSortOrder": "ASC"
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "parentLayerID": "1890be56ea8-layer-2",
+      "renderer": {
+        "_cache": {
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null
+        },
+        "symbol": {
+          "style": "triangle",
+          "color": {
+            "r": 81,
+            "g": 0,
+            "a": 0.8509803921568627
+          },
+          "size": 15,
+          "outline": {
+            "width": 1.3333333333333333,
+            "color": {
+              "a": 0.5019607843137255
+            },
+            "style": "solid",
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "FolderPath",
+          "type": "esriFieldTypeString",
+          "alias": "FolderPath",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "SymbolID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "AltMode",
+          "type": "esriFieldTypeInteger",
+          "alias": "AltMode",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "Base",
+          "type": "esriFieldTypeDouble",
+          "alias": "Base",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "Snippet",
+          "type": "esriFieldTypeString",
+          "alias": "Snippet",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "PopupInfo",
+          "type": "esriFieldTypeString",
+          "alias": "PopupInfo",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "HasLabel",
+          "type": "esriFieldTypeInteger",
+          "alias": "HasLabel",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "LabelID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LabelID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeDouble",
+          "alias": "id",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "azimuth",
+          "type": "esriFieldTypeDouble",
+          "alias": "azimuth",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "category_l",
+          "type": "esriFieldTypeString",
+          "alias": "category_l",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "MERGE_SRC",
+          "type": "esriFieldTypeString",
+          "alias": "MERGE_SRC",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeDouble",
+          "alias": "source",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "spd_lt",
+          "type": "esriFieldTypeDouble",
+          "alias": "spd_lt",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "SpeedAsTim",
+          "type": "esriFieldTypeDate",
+          "alias": "SpeedAsTim",
+          "length": 8,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "ID2",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID2",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        }
+      ],
+      "oidFieldName": "FID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "popupElements": [
+            {
+              "type": "fields"
+            },
+            {
+              "type": "attachments",
+              "displayType": "auto"
+            }
+          ],
+          "showAttachments": true,
+          "fieldInfos": [
+            {
+              "fieldName": "FID",
+              "isEditable": false,
+              "label": "FID",
+              "visible": false
+            },
+            {
+              "fieldName": "Name",
+              "isEditable": true,
+              "label": "Name",
+              "visible": true
+            },
+            {
+              "fieldName": "AltMode",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "AltMode",
+              "visible": true
+            },
+            {
+              "fieldName": "azimuth",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "azimuth",
+              "visible": true
+            },
+            {
+              "fieldName": "Base",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "Base",
+              "visible": true
+            },
+            {
+              "fieldName": "category_l",
+              "isEditable": true,
+              "label": "category_l",
+              "visible": true
+            },
+            {
+              "fieldName": "FolderPath",
+              "isEditable": true,
+              "label": "FolderPath",
+              "visible": true
+            },
+            {
+              "fieldName": "HasLabel",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "HasLabel",
+              "visible": true
+            },
+            {
+              "fieldName": "id",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "id",
+              "visible": true
+            },
+            {
+              "fieldName": "ID2",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "ID2",
+              "visible": true
+            },
+            {
+              "fieldName": "LabelID",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "LabelID",
+              "visible": true
+            },
+            {
+              "fieldName": "MERGE_SRC",
+              "isEditable": true,
+              "label": "MERGE_SRC",
+              "visible": true
+            },
+            {
+              "fieldName": "PopupInfo",
+              "isEditable": true,
+              "label": "PopupInfo",
+              "visible": true
+            },
+            {
+              "fieldName": "Snippet",
+              "isEditable": true,
+              "label": "Snippet",
+              "visible": true
+            },
+            {
+              "fieldName": "source",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "source",
+              "visible": true
+            },
+            {
+              "fieldName": "spd_lt",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "spd_lt",
+              "visible": true
+            },
+            {
+              "fieldName": "SpeedAsTim",
+              "format": {
+                "dateFormat": "longMonthDayYear",
+                "digitSeparator": false
+              },
+              "isEditable": true,
+              "label": "SpeedAsTim",
+              "visible": true
+            },
+            {
+              "fieldName": "SymbolID",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "SymbolID",
+              "visible": true
+            },
+            {
+              "fieldName": "type",
+              "isEditable": true,
+              "label": "type",
+              "visible": true
+            }
+          ],
+          "title": "Ground truth: {Name}"
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "fid": "FID",
+          "name": "Name",
+          "altmode": "AltMode",
+          "azimuth": "azimuth",
+          "base": "Base",
+          "category_l": "category_l",
+          "folderpath": "FolderPath",
+          "haslabel": "HasLabel",
+          "id": "id",
+          "id2": "ID2",
+          "labelid": "LabelID",
+          "merge_src": "MERGE_SRC",
+          "popupinfo": "PopupInfo",
+          "snippet": "Snippet",
+          "source": "source",
+          "spd_lt": "spd_lt",
+          "speedastim": "SpeedAsTim",
+          "symbolid": "SymbolID",
+          "type": "type"
+        },
+        "_fieldsMap": {
+          "fid": {
+            "fieldName": "FID",
+            "isEditable": false,
+            "label": "FID",
+            "visible": false
+          },
+          "name": {
+            "fieldName": "Name",
+            "isEditable": true,
+            "label": "Name",
+            "visible": true
+          },
+          "altmode": {
+            "fieldName": "AltMode",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "AltMode",
+            "visible": true
+          },
+          "azimuth": {
+            "fieldName": "azimuth",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "azimuth",
+            "visible": true
+          },
+          "base": {
+            "fieldName": "Base",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "Base",
+            "visible": true
+          },
+          "category_l": {
+            "fieldName": "category_l",
+            "isEditable": true,
+            "label": "category_l",
+            "visible": true
+          },
+          "folderpath": {
+            "fieldName": "FolderPath",
+            "isEditable": true,
+            "label": "FolderPath",
+            "visible": true
+          },
+          "haslabel": {
+            "fieldName": "HasLabel",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "HasLabel",
+            "visible": true
+          },
+          "id": {
+            "fieldName": "id",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "id",
+            "visible": true
+          },
+          "id2": {
+            "fieldName": "ID2",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "ID2",
+            "visible": true
+          },
+          "labelid": {
+            "fieldName": "LabelID",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "LabelID",
+            "visible": true
+          },
+          "merge_src": {
+            "fieldName": "MERGE_SRC",
+            "isEditable": true,
+            "label": "MERGE_SRC",
+            "visible": true
+          },
+          "popupinfo": {
+            "fieldName": "PopupInfo",
+            "isEditable": true,
+            "label": "PopupInfo",
+            "visible": true
+          },
+          "snippet": {
+            "fieldName": "Snippet",
+            "isEditable": true,
+            "label": "Snippet",
+            "visible": true
+          },
+          "source": {
+            "fieldName": "source",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "source",
+            "visible": true
+          },
+          "spd_lt": {
+            "fieldName": "spd_lt",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "spd_lt",
+            "visible": true
+          },
+          "speedastim": {
+            "fieldName": "SpeedAsTim",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "SpeedAsTim",
+            "visible": true
+          },
+          "symbolid": {
+            "fieldName": "SymbolID",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "SymbolID",
+            "visible": true
+          },
+          "type": {
+            "fieldName": "type",
+            "isEditable": true,
+            "label": "type",
+            "visible": true
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false,
+        "contentHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"simple\",\"symbol\":{\"color\":[81,0,255,217],\"size\":11.25,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSTriangle\",\"outline\":{\"color\":[255,255,255,128],\"width\":1,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(81, 0, 255)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -7.5,7.5 L 0,-7.5 L 7.5,7.5 L -7.5,7.5 Z\" d=\"M-7.5 7.5L 0-7.5L 7.5 7.5L-7.5 7.5Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(81, 0, 255)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -7.5,7.5 L 0,-7.5 L 7.5,7.5 L -7.5,7.5 Z\" d=\"M-7.5 7.5L 0-7.5L 7.5 7.5L-7.5 7.5Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojogfxstrokestyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></path></svg></div>"
+    },
+    {
+      "layer": "1890c5dc5e9-layer-107",
+      "label": "Arlington",
+      "refresh": false,
+      "url": "https://services1.arcgis.com/qr14biwnHA6Vis6l/arcgis/rest/services/Arlington/FeatureServer/0",
+      "id": "1890c5dc5e9-layer-107",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "color": [
+            255,
+            0,
+            145,
+            217
+          ],
+          "size": 7.5,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSSquare",
+          "outline": {
+            "color": [
+              255,
+              255,
+              255,
+              128
+            ],
+            "width": 1,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "color": [
+            255,
+            0,
+            145,
+            217
+          ],
+          "size": 7.5,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSSquare",
+          "outline": {
+            "color": [
+              255,
+              255,
+              255,
+              128
+            ],
+            "width": 1,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null
+          },
+          "symbol": {
+            "style": "square",
+            "color": {
+              "g": 0,
+              "b": 145,
+              "a": 0.8509803921568627
+            },
+            "size": 10,
+            "outline": {
+              "width": 1.3333333333333333,
+              "color": {
+                "a": 0.5019607843137255
+              },
+              "style": "solid",
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(255, 0, 145)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -5,5 L -5,-5 L 5,-5 L 5,5 L -5,5 Z\" d=\"M-5 5L-5-5L 5-5L 5 5L-5 5Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></path></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(255, 0, 145)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -5,5 L -5,-5 L 5,-5 L 5,5 L -5,5 Z\" d=\"M-5 5L-5-5L 5-5L 5 5L-5 5Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "1890c5dc5e9-layer-107",
+        "featureDisplayOptions": {
+          "groupEnabled": true,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "ID",
+              "label": ""
+            },
+            {
+              "name": "spd_lt",
+              "label": "Speed limit"
+            }
+          ],
+          "groupField": {
+            "name": "spd_lt",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          },
+          "layerOptionsSortOrder": "ASC",
+          "groupFeaturesSortOrder": "ASC"
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "parentLayerID": "1890c5dc5e9-layer-107",
+      "renderer": {
+        "_cache": {
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null
+        },
+        "symbol": {
+          "style": "square",
+          "color": {
+            "g": 0,
+            "b": 145,
+            "a": 0.8509803921568627
+          },
+          "size": 10,
+          "outline": {
+            "width": 1.3333333333333333,
+            "color": {
+              "a": 0.5019607843137255
+            },
+            "style": "solid",
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "MUTCDCode",
+          "type": "esriFieldTypeString",
+          "alias": "MUTCDCode",
+          "length": 50,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID",
+          "length": 50,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "Street",
+          "type": "esriFieldTypeString",
+          "alias": "Street",
+          "length": 50,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "spd_lt",
+          "type": "esriFieldTypeInteger",
+          "alias": "spd_lt",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "SpeedAsTim",
+          "type": "esriFieldTypeDate",
+          "alias": "SpeedAsTim",
+          "length": 8,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeDouble",
+          "alias": "source",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        }
+      ],
+      "oidFieldName": "FID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "popupElements": [
+            {
+              "type": "fields"
+            },
+            {
+              "type": "attachments",
+              "displayType": "auto"
+            }
+          ],
+          "showAttachments": true,
+          "fieldInfos": [
+            {
+              "fieldName": "FID",
+              "isEditable": false,
+              "label": "FID",
+              "visible": false
+            },
+            {
+              "fieldName": "ID",
+              "isEditable": true,
+              "label": "ID",
+              "visible": true
+            },
+            {
+              "fieldName": "MUTCDCode",
+              "isEditable": true,
+              "label": "MUTCDCode",
+              "visible": true
+            },
+            {
+              "fieldName": "OBJECTID",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "OBJECTID",
+              "visible": false
+            },
+            {
+              "fieldName": "source",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "source",
+              "visible": true
+            },
+            {
+              "fieldName": "spd_lt",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "spd_lt",
+              "visible": true
+            },
+            {
+              "fieldName": "SpeedAsTim",
+              "format": {
+                "dateFormat": "longMonthDayYear",
+                "digitSeparator": false
+              },
+              "isEditable": true,
+              "label": "SpeedAsTim",
+              "visible": true
+            },
+            {
+              "fieldName": "Street",
+              "isEditable": true,
+              "label": "Street",
+              "visible": true
+            }
+          ],
+          "title": "Arlington"
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "fid": "FID",
+          "id": "ID",
+          "mutcdcode": "MUTCDCode",
+          "objectid": "OBJECTID",
+          "source": "source",
+          "spd_lt": "spd_lt",
+          "speedastim": "SpeedAsTim",
+          "street": "Street"
+        },
+        "_fieldsMap": {
+          "fid": {
+            "fieldName": "FID",
+            "isEditable": false,
+            "label": "FID",
+            "visible": false
+          },
+          "id": {
+            "fieldName": "ID",
+            "isEditable": true,
+            "label": "ID",
+            "visible": true
+          },
+          "mutcdcode": {
+            "fieldName": "MUTCDCode",
+            "isEditable": true,
+            "label": "MUTCDCode",
+            "visible": true
+          },
+          "objectid": {
+            "fieldName": "OBJECTID",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "OBJECTID",
+            "visible": false
+          },
+          "source": {
+            "fieldName": "source",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "source",
+            "visible": true
+          },
+          "spd_lt": {
+            "fieldName": "spd_lt",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "spd_lt",
+            "visible": true
+          },
+          "speedastim": {
+            "fieldName": "SpeedAsTim",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "SpeedAsTim",
+            "visible": true
+          },
+          "street": {
+            "fieldName": "Street",
+            "isEditable": true,
+            "label": "Street",
+            "visible": true
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false,
+        "contentHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"simple\",\"symbol\":{\"color\":[255,0,145,217],\"size\":7.5,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSSquare\",\"outline\":{\"color\":[255,255,255,128],\"width\":1,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(255, 0, 145)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -5,5 L -5,-5 L 5,-5 L 5,5 L -5,5 Z\" d=\"M-5 5L-5-5L 5-5L 5 5L-5 5Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(255, 0, 145)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -5,5 L -5,-5 L 5,-5 L 5,5 L -5,5 Z\" d=\"M-5 5L-5-5L 5-5L 5 5L-5 5Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojogfxstrokestyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></path></svg></div>"
+    },
+    {
+      "layer": "1890be9dbdf-layer-54",
+      "label": "OSM",
+      "refresh": false,
+      "url": "https://services1.arcgis.com/qr14biwnHA6Vis6l/arcgis/rest/services/OSM/FeatureServer/0",
+      "id": "1890be9dbdf-layer-54",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "color": [
+            255,
+            130,
+            0,
+            217
+          ],
+          "size": 7.5,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSCircle",
+          "outline": {
+            "color": [
+              255,
+              255,
+              255,
+              128
+            ],
+            "width": 1,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "color": [
+            255,
+            130,
+            0,
+            217
+          ],
+          "size": 7.5,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSCircle",
+          "outline": {
+            "color": [
+              255,
+              255,
+              255,
+              128
+            ],
+            "width": 1,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null
+          },
+          "symbol": {
+            "style": "circle",
+            "color": {
+              "g": 130,
+              "b": 0,
+              "a": 0.8509803921568627
+            },
+            "size": 10,
+            "outline": {
+              "width": 1.3333333333333333,
+              "color": {
+                "a": 0.5019607843137255
+              },
+              "style": "solid",
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(255, 130, 0)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"5\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></circle></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(255, 130, 0)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"5\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "1890be9dbdf-layer-54",
+        "featureDisplayOptions": {
+          "groupEnabled": true,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "FID",
+              "label": ""
+            },
+            {
+              "name": "spd_lt",
+              "label": ""
+            }
+          ],
+          "groupField": {
+            "name": "spd_lt",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          },
+          "layerOptionsSortOrder": "ASC",
+          "groupFeaturesSortOrder": "ASC"
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "parentLayerID": "1890be9dbdf-layer-54",
+      "renderer": {
+        "_cache": {
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null
+        },
+        "symbol": {
+          "style": "circle",
+          "color": {
+            "g": 130,
+            "b": 0,
+            "a": 0.8509803921568627
+          },
+          "size": 10,
+          "outline": {
+            "width": 1.3333333333333333,
+            "color": {
+              "a": 0.5019607843137255
+            },
+            "style": "solid",
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "maxspeed",
+          "type": "esriFieldTypeString",
+          "alias": "maxspeed",
+          "length": 80,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "spd_lt",
+          "type": "esriFieldTypeDouble",
+          "alias": "spd_lt",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeDouble",
+          "alias": "source",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "SpeedAsTim",
+          "type": "esriFieldTypeDate",
+          "alias": "SpeedAsTim",
+          "length": 8,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        }
+      ],
+      "oidFieldName": "FID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "popupElements": [
+            {
+              "type": "fields"
+            },
+            {
+              "type": "attachments",
+              "displayType": "auto"
+            }
+          ],
+          "showAttachments": true,
+          "fieldInfos": [
+            {
+              "fieldName": "FID",
+              "isEditable": false,
+              "label": "FID",
+              "visible": false
+            },
+            {
+              "fieldName": "maxspeed",
+              "isEditable": true,
+              "label": "maxspeed",
+              "visible": true
+            },
+            {
+              "fieldName": "source",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "source",
+              "visible": true
+            },
+            {
+              "fieldName": "spd_lt",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "spd_lt",
+              "visible": true
+            },
+            {
+              "fieldName": "SpeedAsTim",
+              "format": {
+                "dateFormat": "longMonthDayYear",
+                "digitSeparator": false
+              },
+              "isEditable": true,
+              "label": "SpeedAsTim",
+              "visible": true
+            }
+          ],
+          "title": "OSM"
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "fid": "FID",
+          "maxspeed": "maxspeed",
+          "source": "source",
+          "spd_lt": "spd_lt",
+          "speedastim": "SpeedAsTim"
+        },
+        "_fieldsMap": {
+          "fid": {
+            "fieldName": "FID",
+            "isEditable": false,
+            "label": "FID",
+            "visible": false
+          },
+          "maxspeed": {
+            "fieldName": "maxspeed",
+            "isEditable": true,
+            "label": "maxspeed",
+            "visible": true
+          },
+          "source": {
+            "fieldName": "source",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "source",
+            "visible": true
+          },
+          "spd_lt": {
+            "fieldName": "spd_lt",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "spd_lt",
+            "visible": true
+          },
+          "speedastim": {
+            "fieldName": "SpeedAsTim",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "SpeedAsTim",
+            "visible": true
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false,
+        "contentHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"simple\",\"symbol\":{\"color\":[255,130,0,217],\"size\":7.5,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[255,255,255,128],\"width\":1,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(255, 130, 0)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"5\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(255, 130, 0)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"5\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojogfxstrokestyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></circle></svg></div>"
+    },
+    {
+      "layer": "18978acb188-layer-8",
+      "label": "MapillaryData",
+      "refresh": false,
+      "url": "https://services1.arcgis.com/qr14biwnHA6Vis6l/arcgis/rest/services/Mapillary/FeatureServer/0",
+      "id": "18978acb188-layer-8",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "color": [
+            255,
+            130,
+            0,
+            217
+          ],
+          "size": 7.5,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSDiamond",
+          "outline": {
+            "color": [
+              255,
+              255,
+              255,
+              128
+            ],
+            "width": 1,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "color": [
+            255,
+            130,
+            0,
+            217
+          ],
+          "size": 7.5,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSDiamond",
+          "outline": {
+            "color": [
+              255,
+              255,
+              255,
+              128
+            ],
+            "width": 1,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null
+          },
+          "symbol": {
+            "style": "diamond",
+            "color": {
+              "g": 130,
+              "b": 0,
+              "a": 0.8509803921568627
+            },
+            "size": 10,
+            "outline": {
+              "width": 1.3333333333333333,
+              "color": {
+                "a": 0.5019607843137255
+              },
+              "style": "solid",
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(255, 130, 0)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -5,0 L 0,-5 L 5,0 L 0,5 L -5,0 Z\" d=\"M-5 0L 0-5L 5 0L 0 5L-5 0Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></path></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(255, 130, 0)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -5,0 L 0,-5 L 5,0 L 0,5 L -5,0 Z\" d=\"M-5 0L 0-5L 5 0L 0 5L-5 0Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "18978acb188-layer-8",
+        "featureDisplayOptions": {
+          "groupEnabled": false,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "CLUSTER__1"
+            },
+            {
+              "name": "CLUSTER_ID"
+            },
+            {
+              "name": "COLOR_ID"
+            }
+          ],
+          "groupField": {
+            "name": "FID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          },
+          "layerOptionsSortOrder": "ASC",
+          "groupFeaturesSortOrder": "ASC"
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "parentLayerID": "18978acb188-layer-8",
+      "renderer": {
+        "_cache": {
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null
+        },
+        "symbol": {
+          "style": "diamond",
+          "color": {
+            "g": 130,
+            "b": 0,
+            "a": 0.8509803921568627
+          },
+          "size": 10,
+          "outline": {
+            "width": 1.3333333333333333,
+            "color": {
+              "a": 0.5019607843137255
+            },
+            "style": "solid",
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "SOURCE_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SOURCE_ID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "CLUSTER_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "CLUSTER_ID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "COLOR_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "COLOR_ID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "SPEEDASTIM",
+          "type": "esriFieldTypeDate",
+          "alias": "SPEEDASTIM",
+          "length": 8,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "START_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "START_TIME",
+          "length": 8,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "END_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "END_TIME",
+          "length": 8,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "MEAN_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "MEAN_TIME",
+          "length": 8,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "TIME_EXAGG",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIME_EXAGG",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "CLUSTER__1",
+          "type": "esriFieldTypeInteger",
+          "alias": "CLUSTER__1",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "FREQUENCY",
+          "type": "esriFieldTypeInteger",
+          "alias": "FREQUENCY",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "FIRST_CLUS",
+          "type": "esriFieldTypeInteger",
+          "alias": "FIRST_CLUS",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "FIRST_OBJE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FIRST_OBJE",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "first_seen",
+          "type": "esriFieldTypeString",
+          "alias": "first_seen",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "last_seen_",
+          "type": "esriFieldTypeString",
+          "alias": "last_seen_",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "value",
+          "type": "esriFieldTypeString",
+          "alias": "value",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeDouble",
+          "alias": "source",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "spd_lt",
+          "type": "esriFieldTypeDouble",
+          "alias": "spd_lt",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "SpeedAsT_1",
+          "type": "esriFieldTypeDate",
+          "alias": "SpeedAsT_1",
+          "length": 8,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        }
+      ],
+      "oidFieldName": "FID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "popupElements": [
+            {
+              "type": "fields"
+            },
+            {
+              "type": "attachments",
+              "displayType": "auto"
+            }
+          ],
+          "showAttachments": true,
+          "fieldInfos": [
+            {
+              "fieldName": "FID",
+              "isEditable": false,
+              "label": "FID",
+              "visible": false
+            },
+            {
+              "fieldName": "CLUSTER__1",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "CLUSTER__1",
+              "visible": true
+            },
+            {
+              "fieldName": "CLUSTER_ID",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "CLUSTER_ID",
+              "visible": true
+            },
+            {
+              "fieldName": "COLOR_ID",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "COLOR_ID",
+              "visible": true
+            },
+            {
+              "fieldName": "END_TIME",
+              "format": {
+                "dateFormat": "longMonthDayYear",
+                "digitSeparator": false
+              },
+              "isEditable": true,
+              "label": "END_TIME",
+              "visible": true
+            },
+            {
+              "fieldName": "FIRST_CLUS",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "FIRST_CLUS",
+              "visible": true
+            },
+            {
+              "fieldName": "FIRST_OBJE",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "FIRST_OBJE",
+              "visible": true
+            },
+            {
+              "fieldName": "first_seen",
+              "isEditable": true,
+              "label": "first_seen",
+              "visible": true
+            },
+            {
+              "fieldName": "FREQUENCY",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "FREQUENCY",
+              "visible": true
+            },
+            {
+              "fieldName": "id",
+              "isEditable": true,
+              "label": "id",
+              "visible": true
+            },
+            {
+              "fieldName": "last_seen_",
+              "isEditable": true,
+              "label": "last_seen_",
+              "visible": true
+            },
+            {
+              "fieldName": "MEAN_TIME",
+              "format": {
+                "dateFormat": "longMonthDayYear",
+                "digitSeparator": false
+              },
+              "isEditable": true,
+              "label": "MEAN_TIME",
+              "visible": true
+            },
+            {
+              "fieldName": "OBJECTID",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "OBJECTID",
+              "visible": false
+            },
+            {
+              "fieldName": "source",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "source",
+              "visible": true
+            },
+            {
+              "fieldName": "SOURCE_ID",
+              "format": {
+                "digitSeparator": true,
+                "places": 0
+              },
+              "isEditable": true,
+              "label": "SOURCE_ID",
+              "visible": true
+            },
+            {
+              "fieldName": "spd_lt",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "spd_lt",
+              "visible": true
+            },
+            {
+              "fieldName": "SpeedAsT_1",
+              "format": {
+                "dateFormat": "longMonthDayYear",
+                "digitSeparator": false
+              },
+              "isEditable": true,
+              "label": "SpeedAsT_1",
+              "visible": true
+            },
+            {
+              "fieldName": "SPEEDASTIM",
+              "format": {
+                "dateFormat": "longMonthDayYear",
+                "digitSeparator": false
+              },
+              "isEditable": true,
+              "label": "SPEEDASTIM",
+              "visible": true
+            },
+            {
+              "fieldName": "START_TIME",
+              "format": {
+                "dateFormat": "longMonthDayYear",
+                "digitSeparator": false
+              },
+              "isEditable": true,
+              "label": "START_TIME",
+              "visible": true
+            },
+            {
+              "fieldName": "TIME_EXAGG",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "TIME_EXAGG",
+              "visible": true
+            },
+            {
+              "fieldName": "value",
+              "isEditable": true,
+              "label": "value",
+              "visible": true
+            }
+          ],
+          "title": "Mapillary"
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "fid": "FID",
+          "cluster__1": "CLUSTER__1",
+          "cluster_id": "CLUSTER_ID",
+          "color_id": "COLOR_ID",
+          "end_time": "END_TIME",
+          "first_clus": "FIRST_CLUS",
+          "first_obje": "FIRST_OBJE",
+          "first_seen": "first_seen",
+          "frequency": "FREQUENCY",
+          "id": "id",
+          "last_seen_": "last_seen_",
+          "mean_time": "MEAN_TIME",
+          "objectid": "OBJECTID",
+          "source": "source",
+          "source_id": "SOURCE_ID",
+          "spd_lt": "spd_lt",
+          "speedast_1": "SpeedAsT_1",
+          "speedastim": "SPEEDASTIM",
+          "start_time": "START_TIME",
+          "time_exagg": "TIME_EXAGG",
+          "value": "value"
+        },
+        "_fieldsMap": {
+          "fid": {
+            "fieldName": "FID",
+            "isEditable": false,
+            "label": "FID",
+            "visible": false
+          },
+          "cluster__1": {
+            "fieldName": "CLUSTER__1",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "CLUSTER__1",
+            "visible": true
+          },
+          "cluster_id": {
+            "fieldName": "CLUSTER_ID",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "CLUSTER_ID",
+            "visible": true
+          },
+          "color_id": {
+            "fieldName": "COLOR_ID",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "COLOR_ID",
+            "visible": true
+          },
+          "end_time": {
+            "fieldName": "END_TIME",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "END_TIME",
+            "visible": true
+          },
+          "first_clus": {
+            "fieldName": "FIRST_CLUS",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "FIRST_CLUS",
+            "visible": true
+          },
+          "first_obje": {
+            "fieldName": "FIRST_OBJE",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "FIRST_OBJE",
+            "visible": true
+          },
+          "first_seen": {
+            "fieldName": "first_seen",
+            "isEditable": true,
+            "label": "first_seen",
+            "visible": true
+          },
+          "frequency": {
+            "fieldName": "FREQUENCY",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "FREQUENCY",
+            "visible": true
+          },
+          "id": {
+            "fieldName": "id",
+            "isEditable": true,
+            "label": "id",
+            "visible": true
+          },
+          "last_seen_": {
+            "fieldName": "last_seen_",
+            "isEditable": true,
+            "label": "last_seen_",
+            "visible": true
+          },
+          "mean_time": {
+            "fieldName": "MEAN_TIME",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "MEAN_TIME",
+            "visible": true
+          },
+          "objectid": {
+            "fieldName": "OBJECTID",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "OBJECTID",
+            "visible": false
+          },
+          "source": {
+            "fieldName": "source",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "source",
+            "visible": true
+          },
+          "source_id": {
+            "fieldName": "SOURCE_ID",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "SOURCE_ID",
+            "visible": true
+          },
+          "spd_lt": {
+            "fieldName": "spd_lt",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "spd_lt",
+            "visible": true
+          },
+          "speedast_1": {
+            "fieldName": "SpeedAsT_1",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "SpeedAsT_1",
+            "visible": true
+          },
+          "speedastim": {
+            "fieldName": "SPEEDASTIM",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "SPEEDASTIM",
+            "visible": true
+          },
+          "start_time": {
+            "fieldName": "START_TIME",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "START_TIME",
+            "visible": true
+          },
+          "time_exagg": {
+            "fieldName": "TIME_EXAGG",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "TIME_EXAGG",
+            "visible": true
+          },
+          "value": {
+            "fieldName": "value",
+            "isEditable": true,
+            "label": "value",
+            "visible": true
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false,
+        "contentHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"simple\",\"symbol\":{\"color\":[255,130,0,217],\"size\":7.5,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSDiamond\",\"outline\":{\"color\":[255,255,255,128],\"width\":1,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(255, 130, 0)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -5,0 L 0,-5 L 5,0 L 0,5 L -5,0 Z\" d=\"M-5 0L 0-5L 5 0L 0 5L-5 0Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(255, 130, 0)\" fill-opacity=\"0.8509803921568627\" stroke=\"rgb(255, 255, 255)\" stroke-opacity=\"0.5019607843137255\" stroke-width=\"1.3333333333333333\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -5,0 L 0,-5 L 5,0 L 0,5 L -5,0 Z\" d=\"M-5 0L 0-5L 5 0L 0 5L-5 0Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojogfxstrokestyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></path></svg></div>"
+    },
+    {
+      "layer": "1896a23a754-layer-8",
+      "label": "Mobileye",
+      "refresh": false,
+      "url": "https://services1.arcgis.com/qr14biwnHA6Vis6l/arcgis/rest/services/Mobileye/FeatureServer/0",
+      "id": "1896a23a754-layer-8",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "color": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "size": 7.5,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSCircle",
+          "outline": {
+            "color": [
+              0,
+              0,
+              128,
+              255
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "color": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "size": 7.5,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSCircle",
+          "outline": {
+            "color": [
+              0,
+              0,
+              128,
+              255
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null
+          },
+          "symbol": {
+            "style": "circle",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 128,
+              "a": 0.5019607843137255
+            },
+            "size": 10,
+            "outline": {
+              "width": 1,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 128
+              },
+              "style": "solid",
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(0, 0, 128)\" fill-opacity=\"0.5019607843137255\" stroke=\"rgb(0, 0, 128)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"5\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></circle></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(0, 0, 128)\" fill-opacity=\"0.5019607843137255\" stroke=\"rgb(0, 0, 128)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"5\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "1896a23a754-layer-8",
+        "featureDisplayOptions": {
+          "groupEnabled": false,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "azimuth"
+            },
+            {
+              "name": "category_l"
+            },
+            {
+              "name": "id"
+            }
+          ],
+          "groupField": {
+            "name": "FID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          },
+          "layerOptionsSortOrder": "ASC",
+          "groupFeaturesSortOrder": "ASC"
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "parentLayerID": "1896a23a754-layer-8",
+      "renderer": {
+        "_cache": {
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null
+        },
+        "symbol": {
+          "style": "circle",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 128,
+            "a": 0.5019607843137255
+          },
+          "size": 10,
+          "outline": {
+            "width": 1,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 128
+            },
+            "style": "solid",
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeDouble",
+          "alias": "id",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "azimuth",
+          "type": "esriFieldTypeDouble",
+          "alias": "azimuth",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "category_l",
+          "type": "esriFieldTypeString",
+          "alias": "category_l",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "MERGE_SRC",
+          "type": "esriFieldTypeString",
+          "alias": "MERGE_SRC",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeDouble",
+          "alias": "source",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "spd_lt",
+          "type": "esriFieldTypeDouble",
+          "alias": "spd_lt",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "SpeedAsTim",
+          "type": "esriFieldTypeDate",
+          "alias": "SpeedAsTim",
+          "length": 8,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "ID2",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID2",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        }
+      ],
+      "oidFieldName": "FID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "popupElements": [
+            {
+              "type": "fields"
+            },
+            {
+              "type": "attachments",
+              "displayType": "auto"
+            }
+          ],
+          "showAttachments": true,
+          "fieldInfos": [
+            {
+              "fieldName": "FID",
+              "isEditable": false,
+              "label": "FID",
+              "visible": false
+            },
+            {
+              "fieldName": "azimuth",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "azimuth",
+              "visible": true
+            },
+            {
+              "fieldName": "category_l",
+              "isEditable": true,
+              "label": "category_l",
+              "visible": true
+            },
+            {
+              "fieldName": "id",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "id",
+              "visible": true
+            },
+            {
+              "fieldName": "ID2",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "ID2",
+              "visible": true
+            },
+            {
+              "fieldName": "MERGE_SRC",
+              "isEditable": true,
+              "label": "MERGE_SRC",
+              "visible": true
+            },
+            {
+              "fieldName": "source",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "source",
+              "visible": true
+            },
+            {
+              "fieldName": "spd_lt",
+              "format": {
+                "digitSeparator": true,
+                "places": 2
+              },
+              "isEditable": true,
+              "label": "spd_lt",
+              "visible": true
+            },
+            {
+              "fieldName": "SpeedAsTim",
+              "format": {
+                "dateFormat": "longMonthDayYear",
+                "digitSeparator": false
+              },
+              "isEditable": true,
+              "label": "SpeedAsTim",
+              "visible": true
+            },
+            {
+              "fieldName": "type",
+              "isEditable": true,
+              "label": "type",
+              "visible": true
+            }
+          ],
+          "title": "Mobileye"
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "fid": "FID",
+          "azimuth": "azimuth",
+          "category_l": "category_l",
+          "id": "id",
+          "id2": "ID2",
+          "merge_src": "MERGE_SRC",
+          "source": "source",
+          "spd_lt": "spd_lt",
+          "speedastim": "SpeedAsTim",
+          "type": "type"
+        },
+        "_fieldsMap": {
+          "fid": {
+            "fieldName": "FID",
+            "isEditable": false,
+            "label": "FID",
+            "visible": false
+          },
+          "azimuth": {
+            "fieldName": "azimuth",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "azimuth",
+            "visible": true
+          },
+          "category_l": {
+            "fieldName": "category_l",
+            "isEditable": true,
+            "label": "category_l",
+            "visible": true
+          },
+          "id": {
+            "fieldName": "id",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "id",
+            "visible": true
+          },
+          "id2": {
+            "fieldName": "ID2",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "ID2",
+            "visible": true
+          },
+          "merge_src": {
+            "fieldName": "MERGE_SRC",
+            "isEditable": true,
+            "label": "MERGE_SRC",
+            "visible": true
+          },
+          "source": {
+            "fieldName": "source",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "source",
+            "visible": true
+          },
+          "spd_lt": {
+            "fieldName": "spd_lt",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": true,
+            "label": "spd_lt",
+            "visible": true
+          },
+          "speedastim": {
+            "fieldName": "SpeedAsTim",
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            },
+            "isEditable": true,
+            "label": "SpeedAsTim",
+            "visible": true
+          },
+          "type": {
+            "fieldName": "type",
+            "isEditable": true,
+            "label": "type",
+            "visible": true
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false,
+        "contentHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"simple\",\"symbol\":{\"color\":[0,0,128,128],\"size\":7.5,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriSMS\",\"style\":\"esriSMSCircle\",\"outline\":{\"color\":[0,0,128,255],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"}}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(0, 0, 128)\" fill-opacity=\"0.5019607843137255\" stroke=\"rgb(0, 0, 128)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"5\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></circle></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><circle fill=\"rgb(0, 0, 128)\" fill-opacity=\"0.5019607843137255\" stroke=\"rgb(0, 0, 128)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" cx=\"0\" cy=\"0\" r=\"5\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></circle></svg></div>"
+    }
+  ],
+  "mapID": "0dc7a33c306a4a2086deb4e3744bfab9",
+  "mainPanelText": "",
+  "refreshInterval": "",
+  "refreshEnabled": false,
+  "countEnabled": true,
+  "displayPanelIcon": false,
+  "hidePanel": false,
+  "continuousRefreshEnabled": false,
+  "expandList": true,
+  "showAllFeatures": false,
+  "upgradeFields": false,
+  "displayClusterLayer": true
+}

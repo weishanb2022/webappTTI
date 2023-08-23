@@ -1,0 +1,18 @@
+{
+  "clientId": "MLY|6318647631547715|5a01a5aa666501fab9f46c4826f89ce6",
+  "clientSecret": "MLY|6318647631547715|932349e0f9d1a9593875e17fe6678b79",
+  "defaultUserName": [],
+  "useTransitions": true,
+  "mapillaryImage": true,
+  "mapillaryDirection": true,
+  "mapillarySequence": true,
+  "mapillaryBearing": true,
+  "clearCoverageClose": true,
+  "layerColorPublic": "#39af64",
+  "layerColorOrganization": null,
+  "layerColorPrivate": null,
+  "enableProxy": true,
+  "proxyUrl": "",
+  "enableAnonymous": true,
+  "organizationId": ""
+}

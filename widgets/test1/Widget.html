@@ -1,0 +1,21 @@
+<div class="fusion-widget">
+
+    <button id="selectLayersButton" class="action-button">select layers to fusion</button>
+    
+    <div id="layerSelectContainer" style="display:none;">
+        <label>select layers (Use ctrl+click for multiple selection):</label>
+        <select id="layerSelect" multiple></select>
+    </div>
+    
+    <div class="action-group">
+        <button id="dataFusionButton" class="action-button">data fusion</button>
+        <label class="color-label">select the symbol of the new layer:</label>
+        <input type="color" id="colorPicker" value="#ff0000">
+    </div>
+
+    <div class="action-group">
+        <button id="addToMapButton" class="action-button">add to map</button>
+        <div id="fusionResult"></div>
+    </div>
+
+</div>
